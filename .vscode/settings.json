@@ -1,6 +1,7 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "Lab1/mayflower3.3.7.jar"
+        "Lab1/mayflower3.3.7.jar",
+        "mayflower3.3.7.jar"
     ]
 }
