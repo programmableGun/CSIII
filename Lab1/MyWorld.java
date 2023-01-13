@@ -1,7 +1,7 @@
 import mayflower.*;
 public class MyWorld extends World{
     public MyWorld(){
-        setBackground("CSIII/Lab1/img/bluebonnets.jpg");
+        setBackground("Lab1/img/bluebonnets.jpg");
         Cat a = new Cat();
         addObject(a, 400, 300);
 

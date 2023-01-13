@@ -8,7 +8,7 @@ public class Cat extends Actor{
     int h = getHeight();
 
     public void act(){
-        setImage("CSIII/Lab1/img/cat.png");
+        setImage("Lab1/img/cat.png");
     if((0 <= x && x <= 800) && (-5 <= y && y <= 600)){
         if (Mayflower.isKeyDown( Keyboard.KEY_RIGHT )) {
             setLocation (x + speed, y);
@@ -31,11 +31,13 @@ public class Cat extends Actor{
     }else if(x <= 800){
         x += 200;
         
-    }else if(y <= 0){
-        y -= 200;
-        System.out.println(y);
-    }else if(y >= 800){
+    }
+    if(y <= 0){
         y += 200;
+        System.out.println(y);
+    }
+    if(y >= 600){
+        y -= 200;
         System.out.println(y);
     }
     setLocation(x, y);
