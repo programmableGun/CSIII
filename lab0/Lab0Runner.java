@@ -1,4 +1,3 @@
-//name:Benjamin Santos
 
 public class Lab0Runner {
 
