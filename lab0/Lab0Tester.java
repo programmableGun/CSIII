@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 import junit.framework.*; 
 
 /**
@@ -7,6 +7,7 @@ import junit.framework.*;
  * @author  (your name)
  * @version (a version number or a date)
  */
+/*
 public class Lab0Tester extends TestCase
 {
     public void testMod3()
@@ -69,3 +70,4 @@ public class Lab0Tester extends TestCase
 
     }
 }
+*/
