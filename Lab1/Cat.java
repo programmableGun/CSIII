@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-
 import mayflower.*;
 
 public class Cat extends Actor{
