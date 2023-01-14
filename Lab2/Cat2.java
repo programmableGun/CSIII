@@ -2,6 +2,7 @@ import mayflower.*;
 
 public class Cat2 extends Actor{
     private int score = 0;
+    private int lives = 3;
     //transform varibles
     public int speed = 2;
     public int reboundOffset = 100;
@@ -12,25 +13,39 @@ public class Cat2 extends Actor{
 
     public void act(){
         setImage("Lab2/img/cat.png");
-        System.out.println("working");
         handleMovementInput();
+        updateText();
     }    
-    
+    private void updateText(){
+        World w = getWorld();
+        
+        w.removeText(10, 30);
+        w.showText("Score: " + score + " Lives: " + lives, 10, 30, Color.BLACK);
+    }
+    public void increaseScore(int value){
+        score += value;
+        System.out.println("score = "+score);
+    }
+    public void hurt(){
+        lives--; // lives --1
+        x = 300;
+        y = 200;
+    }
     private void handleMovementInput(){
         if((0 <= x && x <= 800) && (-5 <= y && y <= 600)){
             if (Mayflower.isKeyDown( Keyboard.KEY_RIGHT )) {
                 setLocation (x + speed, y);
                 x = getX();
             }
-            else if (Mayflower.isKeyDown( Keyboard.KEY_UP )) {
+            if (Mayflower.isKeyDown( Keyboard.KEY_UP )) {
                 setLocation (x, y - speed);
                 y = getY();
             }
-            else if (Mayflower.isKeyDown( Keyboard.KEY_DOWN )) {
+            if (Mayflower.isKeyDown( Keyboard.KEY_DOWN )) {
                 setLocation (x, y + speed);
                 y = getY();
             }
-            else if (Mayflower.isKeyDown( Keyboard.KEY_LEFT )) {
+            if (Mayflower.isKeyDown( Keyboard.KEY_LEFT )) {
                 setLocation (x - speed, y);
                 x = getX();
             }

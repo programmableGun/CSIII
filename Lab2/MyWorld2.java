@@ -17,9 +17,11 @@ public class MyWorld2 extends World{
         Yarn2 yarn3 = new Yarn2();
         addObject(yarn3, 600, 450);
 
-        
+        showText("Score: 0 Lives: 3", 10, 30, Color.BLACK);
+
     }
     public void act(){
+        
         
     }
 }

@@ -6,5 +6,5 @@ public class Lab2Runner
     	new MyMayflower();
     }
     
-    
+        
 }
