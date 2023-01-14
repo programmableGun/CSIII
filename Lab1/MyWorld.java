@@ -5,16 +5,16 @@ public class MyWorld extends World{
         Cat a = new Cat();
         addObject(a, 400, 300);
 
-        dog b = new dog();
+        Dog2 b = new Dog2();
         addObject(b, 200, 150);
 
-        Yarn yarn1 = new Yarn();
+        Yarn2 yarn1 = new Yarn2();
         addObject(yarn1, 600, 150);
         
-        Yarn yarn2 = new Yarn();
+        Yarn2 yarn2 = new Yarn2();
         addObject(yarn2, 200, 450);
         
-        Yarn yarn3 = new Yarn();
+        Yarn2 yarn3 = new Yarn2();
         addObject(yarn3, 600, 450);
 
         
