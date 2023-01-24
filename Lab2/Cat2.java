@@ -4,7 +4,7 @@ public class Cat2 extends Actor{
     private int score = 0;
     private int lives = 3;
     //transform varibles
-    public int speed = 2;
+    public int speed = 50;
     public int reboundOffset = 100;
     int x = getX();
     int y = getY();
@@ -30,6 +30,14 @@ public class Cat2 extends Actor{
         lives--; // lives --1
         x = 300;
         y = 200;
+        if(lives <= 0){
+            updateText();
+            die();
+        }
+    }
+    private void die(){
+        World w = getWorld();
+        w.removeObject(this);
     }
     private void handleMovementInput(){
         if((0 <= x && x <= 800) && (-5 <= y && y <= 600)){

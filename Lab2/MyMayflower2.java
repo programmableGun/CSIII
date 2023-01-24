@@ -1,9 +1,9 @@
 import mayflower.*;
 
-public class MyMayflower extends Mayflower
+public class MyMayflower2 extends Mayflower
 {
     //Constructor
-    public MyMayflower()
+    public MyMayflower2()
     {
         //Create a window with 800x600 resolution
         super("Lab 2", 800, 600);
