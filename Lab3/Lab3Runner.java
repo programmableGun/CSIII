@@ -1,5 +1,3 @@
-import mayflower.*;
-
 public class Lab3Runner 
 {
 
