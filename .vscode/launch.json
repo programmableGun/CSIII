@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab0Runner",
+            "request": "launch",
+            "mainClass": "Lab0Runner",
+            "projectName": "CSIII_4b7f2040"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab1Runner",
+            "request": "launch",
+            "mainClass": "Lab1Runner",
+            "projectName": "CSIII_4b7f2040"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2Runner",
+            "request": "launch",
+            "mainClass": "Lab2Runner",
+            "projectName": "CSIII_4b7f2040"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3Runner",
+            "request": "launch",
+            "mainClass": "Lab3Runner",
+            "projectName": "CSIII_4b7f2040"
+        }
+    ]
+}
