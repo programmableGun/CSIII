@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lab5Runner",
+            "request": "launch",
+            "mainClass": "Lab5Runner",
+            "projectName": "CSIII_4b7f2040"
+        },
+        {
+            "type": "java",
             "name": "Launch Lab4Runner",
             "request": "launch",
             "mainClass": "Lab4Runner",
