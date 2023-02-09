@@ -1,7 +1,7 @@
-public class Jack4 extends AnimatedActor
+public class Jack5 extends AnimatedActor
 {
     private Animation walkAnimation;
-    public Jack4() 
+    public Jack5() 
     {
         String[] frames = new String[10]; 
         for (int i = 0; i < 10; i++){

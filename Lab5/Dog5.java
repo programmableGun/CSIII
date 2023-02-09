@@ -1,7 +1,7 @@
-public class Dog4 extends AnimatedActor
+public class Dog5 extends AnimatedActor
 {
     private Animation walkAnimation;
-    public Dog4() 
+    public Dog5() 
     {
         String[] frames = new String[10]; 
         for (int i = 0; i < 10; i++){
