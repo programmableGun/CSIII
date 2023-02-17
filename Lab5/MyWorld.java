@@ -4,8 +4,8 @@ import mayflower.*;
 public class MyWorld extends World {
 
 	private Cat cat;
-	private Dog5 dog;
-    private Jack5 jack;
+	//private Dog5 dog;
+    //private Jack5 jack;
     //In the MyWorld class, create a private instance variable called tiles that is a 2D array of Strings.
     private String[][] tiles;
     public MyWorld() 
