@@ -48,7 +48,7 @@ public class MyArrayList implements MyList{
 
             }
             // then set the first index to the disered object
-            data[0]=obj;
+            data[0]=obj;  
         }
         // otherwise insert the object at disered index
         else{
@@ -134,11 +134,6 @@ public class MyArrayList implements MyList{
         // then fill it with the new list
         for (int i = 0; i < data.length; i++){
             if(oldList[i] == null){
-                //this is not the correct solution, its just the first iteration
-                //anyway, what this does is if the supposed index in the old list is null, then it should be deleted
-                //so we somehow merge the new data with the old data
-                //so for now if the current index of the old list is null then just go foward one more spot
-                // and add that one instead
                 j++;
                 data[i] = oldList[j];
                 // which means that there will be dups that need to be taken care of
